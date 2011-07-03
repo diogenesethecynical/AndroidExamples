@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titleStatus">Status update</string>
+    <string name="app_name">Yamba</string>
+    <string name="hintText">Please enter your 140 character status</string>
+    <string name="buttonUpdate">Update</string>
+    <string name="titleUsername">Username</string>
+    <string name="summaryUsername">Enter your username</string>
+    <string name="titlePassword">Enter password</string>
+    <string name="summaryPassword">Please enter yourr password here</string>
+    <string name="titleApiRoot">Enter the URL</string>
+    <string name="summaryApiRoot">Summary of API</string>
+    <string name="titlePrefs">MenuTitle</string>
+    <string name="titleServiceStart">Start Service</string>
+    <string name="titleServiceStop">Stop Service</string>
+</resources>

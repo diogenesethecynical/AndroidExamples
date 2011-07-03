@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/titleStatus"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    />
+
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/textCount"
+    android:text="000"
+    android:textSize="10sp"
+    android:gravity="right"
+    
+    />
+    
+
+<EditText 
+	android:layout_width="fill_parent"
+	android:text="@string/hintText" 
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal|top"
+	android:layout_weight="1" 
+	android:id="@+id/editText"
+	/>
+	
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/buttonUpdate"
+	android:id="@+id/buttonUpdate"
+	android:textSize="20sp"
+	/>
+    
+    
+</LinearLayout>
